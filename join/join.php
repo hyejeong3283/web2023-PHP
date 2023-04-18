@@ -36,7 +36,7 @@
                         <legend class="blind">회원가입 영역</legend>
                         <div>
                             <label for="youEmail" class="required">이메일</label>
-                            <input type="email" id="youEmail" name="youEmail" placeholder="이메일을 적어주세요." required>
+                            <input type="text" id="youEmail" name="youEmail" placeholder="이메일을 적어주세요." required>
                         </div>
                         <div>
                             <label for="youName" class="required">이름</label>
@@ -51,8 +51,8 @@
                             <input type="password" id="youPassC" name="youPassC" placeholder="다시 한번 비밀번호를 적어주세요." required>
                         </div>
                         <div>
-                            <label for="youPhone">연락처</label>
-                            <input type="text" id="youPhone" name="youPhone" placeholder="연락처를 적어주세요.">
+                            <label for="youPhone" class="required">연락처</label>
+                            <input type="text" id="youPhone" name="youPhone" placeholder="연락처를 적어주세요." required>
                         </div>
                         <button type="submit">회원가입 완료</button>
                     </fieldset>
